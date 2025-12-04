@@ -1,12 +1,15 @@
+ <?php 
+ $n = dirname(__DIR__);
+ 
+ echo  $n."/data/info.php";
+ include ($n."/data/info.php");
+//  echo __FILE__;
+// echo include(dirname(__DIR__."/data"));
+//   require (dirname(__DIR__."/data/info.php"));
 
-<?php $info=[   
-['title' =>'Création de sites Web','info'=>'Sites vitrines, e-commerce, applications modernes.']
-,['title'=>'Développement sur mesure','info'=>'Outils internes, solutions métiers spécifiques.']
-,['title'=>'Automatisation & API','info'=>'Automatisation des tâches, intégration dAPI.']
-,['title'=>'Automatisation & API','info'=>'Automatisation des tâches, intégration dAPI.']
 
+?>
 
-  ] ?>
   <section class="container mx-auto py-16">
     <h2 class="text-3xl font-bold mb-8 text-center">Nos Services</h2>
     <div class="grid md:grid-cols-3 gap-8">
