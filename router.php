@@ -30,11 +30,16 @@ $pages = [
 ];
 
 
-echo $url;
+
 function router($url, $pages) {
-   
+//         $parsedUrl = parse_url($url);
+//             $path = $parsedUrl['path'] ?? '/';
+//   echo "parse url :". $path; 
+// echo "<pre>";
+//     echo ":". $pages[$url]; 
     if (array_key_exists($url, $pages)) {
         return $pages[$url];
+        
         
     }
     

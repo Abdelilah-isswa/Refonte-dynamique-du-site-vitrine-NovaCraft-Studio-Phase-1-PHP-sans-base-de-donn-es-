@@ -1,7 +1,7 @@
  <?php 
  $n = dirname(__DIR__);
  
- echo  $n."/data/info.php";
+
  include ($n."/data/info.php");
 //  echo __FILE__;
 // echo include(dirname(__DIR__."/data"));
